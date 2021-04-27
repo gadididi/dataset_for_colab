@@ -1,8 +1,8 @@
 import cv2
 import os
 
-path = "./train/"
-dst = "./train_img/"
+path = "./test/"
+dst = "./test_img/"
 for filename in os.listdir(path):
     if "json" in filename:
         continue
